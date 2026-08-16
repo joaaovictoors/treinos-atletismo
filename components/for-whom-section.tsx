@@ -1,10 +1,10 @@
 export function ForWhomSection() {
   const profiles = [
-    ['1', 'TREINADORES', 'Monte sessões completas sem começar do zero.'],
-    ['2', 'PROFESSORES E INSTRUTORES', 'Consulte atividades organizadas para diferentes objetivos.'],
-    ['3', 'PRATICANTES INICIANTES', 'Encontre propostas claras para desenvolver fundamentos.'],
-    ['4', 'PRATICANTES AVANÇADOS', 'Varie estímulos e acompanhe critérios de evolução.'],
-    ['5', 'DIFERENTES PÚBLICOS', 'Adapte os treinos para infantil, juvenil e adulto.'],
+    ['1', 'TREINADORES', 'Planeje sessões completas sem precisar começar do zero.'],
+    ['2', 'PROFESSORES E INSTRUTORES', 'Encontre treinos prontos para diferentes objetivos e níveis.'],
+    ['3', 'QUEM ESTÁ COMEÇANDO', 'Comece com sessões claras, progressivas e fáceis de acompanhar.'],
+    ['4', 'QUEM JÁ TREINA', 'Varie os estímulos e encontre novos desafios para continuar evoluindo..'],
+    ['5', 'DIFERENTES IDADES E NÍVEIS', 'Adapte cada treino de acordo com a idade, o nível e o objetivo.'],
   ];
   return (
     <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#EEEAE3' }}>

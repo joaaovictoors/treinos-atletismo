@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="py-8 sm:py-10 md:py-12" style={{ backgroundColor: '#F0642D' }}>
       <div className="w-full max-w-6xl mx-auto" style={{ paddingInline: '14px', boxSizing: 'border-box' }}>
         <div className="text-center text-xs sm:text-sm space-y-2 text-white">
-          <p>© {currentYear} 200 Treinos de Atletismo. Todos os direitos reservados.</p>
+          <p>© {currentYear} Treinos de Atletismo. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

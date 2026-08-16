@@ -19,13 +19,13 @@ export function WhatYouGet() {
       <div className="mobile-content">
         <div className="mx-auto mb-10 flex max-w-3xl flex-col items-center gap-4 text-center md:mb-12">
           <h2 className="font-grotesk text-3xl leading-tight text-pretty text-[#17191C] sm:text-4xl md:text-5xl">
-            <span className="text-[#F0642D]">200 Treinos</span> Organizados pelos Principais Módulos do Atletismo
+            <span className="text-[#F0642D]">200 Treinos</span> ORGANIZADOS DO BÁSICO AO AVANÇADO
           </h2>
           <p className="max-w-2xl text-sm leading-relaxed text-[#5E6267] sm:text-base md:text-lg">
-            Uma biblioteca visual completa para encontrar treinos de diferentes modalidades, objetivos, públicos e níveis.
+            Encontre sessões prontas para velocidade, resistência, técnica, saltos, arremessos, mobilidade e muito mais.
           </p>
         </div>
-
+ botçao 
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
           {modules.map(([emoji, title, count, description]) => (
             <article
