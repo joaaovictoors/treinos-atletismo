@@ -25,7 +25,7 @@ export function WhatYouGet() {
             Encontre sessões prontas para velocidade, resistência, técnica, saltos, arremessos, mobilidade e muito mais.
           </p>
         </div>
-
+ botçao 
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
           {modules.map(([emoji, title, count, description]) => (
             <article
